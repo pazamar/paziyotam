@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ספר/מספרה מקצועית</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <p class="eyebrow">ספר/מספרה ממוקד תורים</p>
+        <h1>הספרה שמכינה אותך למראה חדש</h1>
+        <p class="hero-text">אתר מוכן לספרות עם גלריה, תפריט שירותים, טופס קביעת תור וקישור ישיר ל-WhatsApp.</p>
+      </div>
+      <div class="hero-actions">
+        <a href="#booking" class="button button-primary">קבע תור עכשיו</a>
+        <a href="https://wa.me/972500000000" target="_blank" class="button button-secondary">כתוב בוואטסאפ</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section about" id="about">
+      <div class="container">
+        <h2>עלינו</h2>
+        <p>ספרה מודרנית עם יחס אישי, שירות מהיר וניסיון בתחום השיער. כאן תקבלו תספורת, עיצוב וצבע מקצועי לכל אירוע.</p>
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3>יחס אישי</h3>
+            <p>נקשיב לרצונות שלך ונמצא את הסגנון הנכון.</p>
+          </div>
+          <div class="feature-card">
+            <h3>נייד וידידותי</h3>
+            <p>אתר מותאם לנייד, פניה מהירה ופרטי קשר ברורים.</p>
+          </div>
+          <div class="feature-card">
+            <h3>זמינות מהירה</h3>
+            <p>קבע תור בקליק וקבל עדיפות ללקוחות חוזרים.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <h2>השירותים שלנו</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>תספורת גברים</h3>
+            <p>גיזור, סגנון וקווים חדים לקיצוץ מדויק.</p>
+          </article>
+          <article class="service-card">
+            <h3>תספורת נשים</h3>
+            <p>עיצוב אישי לפי צורכי הלקוחה וטיפוח שיער מלא.</p>
+          </article>
+          <article class="service-card">
+            <h3>צבע ושיקום</h3>
+            <p>צביעה מקצועית וטיפולי בריאות לשיער.</p>
+          </article>
+          <article class="service-card">
+            <h3>תסרוקות לאירועים</h3>
+            <p>מראה מעוצב ומוקפד לאירועים מיוחדים.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <h2>גלריית עבודות</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">לפני/אחרי 1</div>
+          <div class="gallery-item">לפני/אחרי 2</div>
+          <div class="gallery-item">לפני/אחרי 3</div>
+          <div class="gallery-item">לפני/אחרי 4</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section booking" id="booking">
+      <div class="container">
+        <h2>קביעת תור</h2>
+        <p>השאירו פרטים ואנחנו נחזור אליכם עם אישור התור.</p>
+        <form id="booking-form" class="booking-form">
+          <div class="form-grid">
+            <label>
+              שם מלא
+              <input type="text" name="name" placeholder="שם מלא" required />
+            </label>
+            <label>
+              טלפון
+              <input type="tel" name="phone" placeholder="05XXXXXXXX" required />
+            </label>
+            <label>
+              שירות מבוקש
+              <select name="service" required>
+                <option value="">בחר שירות</option>
+                <option value="תספורת גברים">תספורת גברים</option>
+                <option value="תספורת נשים">תספורת נשים</option>
+                <option value="צבע">צבע</option>
+                <option value="תסרוקת לאירוע">תסרוקת לאירוע</option>
+              </select>
+            </label>
+            <label>
+              תאריך רצוי
+              <input type="date" name="date" required />
+            </label>
+            <label>
+              שעה רצויה
+              <input type="time" name="time" required />
+            </label>
+            <label class="full-width">
+              תיאור קצר
+              <textarea name="message" placeholder="רוצה קווצת שיער קצרה או צביעה מיוחדת?" rows="4"></textarea>
+            </label>
+          </div>
+          <button type="submit" class="button button-primary">שלח בקשה</button>
+          <p id="booking-response" class="booking-response" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2>צור קשר</h2>
+        <div class="contact-grid">
+          <div>
+            <p><strong>טלפון:</strong> 050-000-0000</p>
+            <p><strong>וואטסאפ:</strong> <a href="https://wa.me/972500000000" target="_blank">צור קשר</a></p>
+            <p><strong>כתובת:</strong> רחוב הדוגמה 15, [עיר]</p>
+            <p><strong>שעות פתיחה:</strong> א'-ה' 09:00-20:00 | ו' 09:00-14:00</p>
+          </div>
+          <div class="map-placeholder">מפה</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 ספר/מספרה מקצועית - אתר לדוגמה</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

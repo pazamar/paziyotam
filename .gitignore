@@ -1,0 +1,14 @@
+# Node files (if any)
+node_modules/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Ignore other editor or system files
+*.swp
+*.swo
+.idea/
+.vscode/
