@@ -37,8 +37,8 @@ textarea {
 }
 
 .site-header {
-  background: linear-gradient(135deg, #1b1b1b, #2e2e2e);
-  color: #fff;
+  background: linear-gradient(135deg, #f5f2ed, #f9f7f5);
+  color: #1b1b1b;
   padding: 28px 0 60px;
   overflow: hidden;
 }
@@ -64,14 +64,14 @@ textarea {
 }
 
 .header-nav a {
-  color: rgba(255,255,255,0.82);
+  color: #1b1b1b;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s ease;
 }
 
 .header-nav a:hover {
-  color: #fff;
+  color: #d67a57;
 }
 
 .hero-section {
@@ -96,7 +96,7 @@ textarea {
 .hero-text {
   margin: 24px 0 28px;
   max-width: 680px;
-  color: rgba(255,255,255,0.85);
+  color: #555;
 }
 
 .hero-actions {
@@ -107,27 +107,28 @@ textarea {
 
 .button-outline {
   background: transparent;
-  color: #fff;
-  border: 1px solid rgba(255,255,255,0.8);
+  color: #1b1b1b;
+  border: 1px solid #1b1b1b;
 }
 
 .stat-card {
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.04);
+  border: 1px solid rgba(0,0,0,0.08);
   border-radius: 26px;
   padding: 26px;
   display: grid;
   gap: 10px;
-  box-shadow: 0 24px 80px rgba(0,0,0,0.18);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 }
 
 .stat-number {
   font-size: 2.6rem;
   font-weight: 900;
+  color: #1b1b1b;
 }
 
 .stat-label {
-  color: rgba(255,255,255,0.78);
+  color: #666;
 }
 
 .contact-card-section {
